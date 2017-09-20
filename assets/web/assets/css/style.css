@@ -103,16 +103,21 @@
 
 @media screen and (max-width: 400px) {
     .selector {
-        width: 30vw;
-        height: 30vw;
-        margin-top: -15vw;
-        margin-left: -15vw;
+        width: 36vw;
+        height: 36vw;
+        margin-top: -18vw;
+        margin-left: -18vw;
+    }
+
+    .selector button {
+        font-size: 2.0vw;
     }
 
     .selector.open li input + label {
-        width: 16vw;
-        height: 16vw;
-        line-height: 16vw;
-        margin-left: -8vw;
+        width: 20vw;
+        height: 20vw;
+        line-height: 20vw;
+        margin-left: -16vw;
+        font-size: 2.0vw;
     }
 }
