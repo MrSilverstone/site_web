@@ -33,8 +33,10 @@ function initBubble() {
         label.css("background", cicleParagraph[i].color);
         label.mouseover(() => {
 
+            /*
             $("#jarallax-container-2").children().css("transition","background 0.3s linear")
             $("#jarallax-container-2").children().css("background-image","url(" + images[i] + ")")
+            */
 
             $("#main-circle").fadeIn("slow", () => {
                 $("#main-circle").html(cicleParagraph[i].text);

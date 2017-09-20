@@ -100,3 +100,19 @@
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
     font-size: 1.3vh;
 }
+
+@media screen and (max-width: 400px) {
+    .selector {
+        width: 30vw;
+        height: 30vw;
+        margin-top: -15vw;
+        margin-left: -15vw;
+    }
+
+    .selector.open li input + label {
+        width: 16vw;
+        height: 16vw;
+        line-height: 16vw;
+        margin-left: -8vw;
+    }
+}
