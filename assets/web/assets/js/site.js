@@ -87,6 +87,12 @@ $('.selector button').click(function (e) {
 
 $(document).ready(function () {
 
+    $('#navbarSupportedContent > ul > li').on('click', function(e) {
+        $('.active').removeClass('active')
+        $(e.currentTarget).children().addClass('active')
+    })
+
+
     $('.selector ul li').each((i, li) => {
 
         const label = $(li).children('label');

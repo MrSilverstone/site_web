@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 .selector {
     position: absolute;
     left: 50%;
@@ -101,6 +104,18 @@
     font-size: 1.3vh;
 }
 
+.cid-qvGeCOkZU5 {
+    padding-top: 0;
+}
+
+.display-4 {
+    font-family: 'Raleway';
+}
+
+.active {
+    color: white;
+}
+
 @media screen and (max-width: 400px) {
     .selector {
         width: 36vw;
@@ -120,4 +135,4 @@
         margin-left: -10vw;
         font-size: 2.0vw;
     }
-}
+} 

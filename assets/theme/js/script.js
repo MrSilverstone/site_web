@@ -342,7 +342,7 @@
                     // youtube
                     if (parsedUrl && /youtube/g.test(parsedUrl[3])) {
                         var previewURL = 'http' + ('https:' === location.protocol ? 's' : '') + ':';
-                        previewURL += '//img.youtube.com/vi/' + parsedUrl[6] + '/maxresdefault.jpg';
+                        previewURL += '//img.youtube.com/vi/' + parsedUrl[6] + '/mqdefault.jpg';
 
                         $('<img>').on('load', function() {
                             if (120 === (this.naturalWidth || this.width)) {
